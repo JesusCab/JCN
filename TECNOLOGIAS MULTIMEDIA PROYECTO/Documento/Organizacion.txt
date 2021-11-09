@@ -1,0 +1,11 @@
+La aplicacion web contiene los siguientes archivos
+1) Documento
+Contiene la presentancion, el documento con los nombres de los integrantes del equipo, y el presente documento con la explicacion.
+2) Imagenes Usadas:
+Contienen todas las imagenes que incluimos en nuestro subproyecto.
+3) Logo:
+Contiene el logo.
+4) Photoahop_pantallas:
+Contiene el contendio de las pantallas en photoshop.
+5) PGN_pantallas:
+Contiene las pantallas pero en PGN

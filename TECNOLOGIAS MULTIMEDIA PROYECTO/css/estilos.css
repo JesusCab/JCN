@@ -1,0 +1,219 @@
+/*Editamos la parte del cuerpo o la pagina en si con el tipo de letra y el color de fondo*/
+body{
+	font:15px Arial;
+	padding:0px;
+	margin:0px;
+	backgrong-color: #f2f2f2;
+}
+
+#marca .resultado img{
+	height:40px;
+	with:30px;
+}
+
+/*editamos las medidas de las tablas*/
+ul{
+	margin:0;
+	padding:0;
+}
+
+.nav li a{
+	
+	color: #fff;
+	text-decoration:none;
+	padding: 10px 15px;
+	display: block;
+}
+
+
+.nav li a:hover	{
+	background-color: #434343;
+}
+
+.nav > li{
+	float: left;
+}
+
+.nav li ul{
+	display:none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.nav li:hover > ul{
+	display: block;
+}
+
+/*Edicion del boton Solamente del boton de enviar*/
+.boton1{
+	height:30px;
+	with: 15px;
+	border:0;
+	padding-left:20px;
+	padding-right:20px;
+	color: #000
+}
+
+/*con esta clase manejamos la distancia de los contenedores hacia la derecha marcado en el with*/
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+/*Editar encabezado*/
+header{
+	background-color: #24282b;/*con esta propiedad solo le di el color de negrito al encabezado donde esta el menu*/
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	/*border-bottom: 5px solid #038908;*//*con esta propiedad se le pone el borde de color verde a el encabezado*/
+}
+
+/*edicion de links para que se vean bonitos*/
+header a{
+	color:#fff; /*esta propiedad hace blancas las letras ya que estaban azules por que indicaban un link*/
+	text-decoration: none;/*hace mas finita la letra se ve con mas estetica*/
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+/* edicion de la lista para que se vea que es un menu*/
+
+header li{
+	float: left; /*esta propiedad hace flotar hacia la derecha o alinear la lista de derecha a izquierda*/
+	display: inline; /*esta propiedad marca que el listado este en una sola fila*/
+	padding: 0 20px 0 20px	
+}
+
+/*solo se edita la parte de el logo de una manera que se vea presentable*/
+header #marca{
+	float: left; /*se flota id marca hacia la derecha donde viene le logo y se cloca en la esquina ya que es de margin 0*/
+} 
+
+/*se edita el margen para que quede ajustado en la esquina*/
+header #marca h1{
+	margin: 0;/*se mueve todo a la esquina superio izquierda*/
+}
+
+/*mover el menu hasta la derecha */
+header nav{
+	float: right;/*esta propiedad hace flotar a la derecha todo lo que viene en el nav */
+	margin-top:10px;/*esta propiedad solo ajusta lo que viene en el nav y acomoda en este caso el texto en el centro del nav*/
+}
+
+/*cambiar color de letra de posicionamiento de pagina*/
+header .resultado, header .actual a {
+	color: #038908; /*esta propiedad cambia el color de letra que tiene el inicio y la propiedad actual que viene en el codigo html*/
+	font-weight: bold;/* solo se cambia el tipo de letra a negritas*/
+}
+
+/*cambiar el color de las letaras en el menu cuando nos colocamos en ellas con la propiedad hover*/
+header a:hover{
+	color: #ccc;/*cambia el color a gisecito al momento de colocar el mouse en las letras*/
+	font-weight: bold;/*solo cambia */
+}
+
+/*edicion de cabezera o donde ira el banner*/
+
+/*mandamos a llamar al id con el # llamado cabecera para cambiar las propiedades de la cabezera */
+
+#cabecera {
+	min-height:400px;
+	background: url('../imagenes/cabecera1.jpg');
+	/*background:url('..\imagenes\cabecera.jpg') no-repite0 -400px;*//*con esta propìedad solo se coloca el banner y se ajusta*/
+	text-aling: center;/*se centra el texto*/ 
+	color:#fff;
+
+}
+
+/*solo se coloca para ajustar el texto a el banner*/
+#cabecera h1{
+	margin-top 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#cabecera p{
+	font-size: 20px;
+}
+
+/*edicion de la parte del boton*/
+
+#boletin {
+	padding: 15px; /*solo alineamos la caja en la que se contiene */
+	color: #fff;
+	background: #24282b;
+	border-bottom: 5px solid #038908;
+
+}
+
+#boletin h1{
+	float:left; /*con la propiedad hacemos que el texto flote a la izquierda*/
+}
+
+#boletin form{
+	float: right; /*hacemos que el formulario se ajuste a la derecha*/
+	margin-top: 15px; /*hacemos un acomodo en nuestro fomulario para ajustarlo*/
+}
+
+#boletin input[type="email"]{
+	padding: 4px; /*hacemos mas grande la casilla de texto*/
+	height: 25px; /*solo se ajusta el tamaño  alto*/
+	width: 250px; /*solo se ajusta el tamaño ancho*/
+}
+
+
+
+
+/* Modificacion de las cajas y ajuste de ellas*/
+
+
+#cajas{
+	
+	margin-top: 30px;
+	margin-right: -280px;
+	/*esta propiedad ajusta la distancia hacia la derecha de cada 
+	imagen o caja*/
+	
+}
+
+
+#cajas  .caja{
+	float: left; /*hacemos flotar a las imagenes a la izquierda*/
+	text-aling: center; /*centramos texto*/
+
+	width: 30% /*ajustamos anchura de nuestras cajas*/
+	 /*agregamos distancia entre ellas*/
+	/*bottom: 30px;*/
+
+}
+
+
+/*Me quede aqui*/
+
+
+#cajas .caja img{
+	width: 300px; /*ajuste de tamaño de imagen*/
+	
+	
+}
+
+#cajas .caja ul ,li {
+	list-style: none;
+}
+
+
+
+/*Edicion del pie de pagina*/
+
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	background-color:#038908;
+	text-align: center;
+}
